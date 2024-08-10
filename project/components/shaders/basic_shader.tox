@@ -1,0 +1,10 @@
+// Example GLSL Code for a Simple Color Effect
+uniform sampler2D sTD2DInputs[1];
+uniform vec3 uColorBalance;
+
+void main()
+{
+    vec4 color = texture(sTD2DInputs[0], gl_TexCoord[0].st);
+    color.rgb *= uColorBalance;
+    gl_FragColor = color;
+}
