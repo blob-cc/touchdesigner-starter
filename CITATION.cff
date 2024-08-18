@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-title: Scape Agency Brand
+title: TouchDesigner Template
 version: 0.0.1
-date-released: 2023-01-01
-url: "https://github.com/scape-agency/brand"
+date-released: 2024-08-01
+url: "https://github.com/scape-agency/cc-touchdesigner"
 message: >-
-  If you use Scape Agency Brand, please cite it using
+  If you use this software, please cite it using
   the metadata from this file.
 type: software
 authors:
